@@ -6,7 +6,7 @@ Algoritmo "Partida de futebol 2"
 // Data atual  : 12/07/2022
 Var
    // Seção de Declarações das variáveis
-   DF, gols1, gols2+ : real
+   DF, gols1, gols2 : real
 
 Inicio
    // Seção de Comandos, procedimento, funções, operadores, etc...
