@@ -10,10 +10,10 @@ Var
 
 Inicio
    // Seção de Comandos, procedimento, funções, operadores, etc...
-   Escreval(" -------------------- ")
-   Escreval(" CRUZEIRO X VILA NOVA ")
-   Escreval(" -------------------- ")
-   Escreva (" Quantos gols do CRUZEIRO? ")
+   Escreval(" ----------------------------------------")
+   Escreval("          CRUZEIRO X VILA NOVA           ")
+   Escreval(" ----------------------------------------")
+   Escreva (" Quantos gols do CRUZEIRO?  ")
    Leia (C)
    Escreva  (" Quantos gols do VILA NOVA? ")
    Leia (V)
@@ -22,19 +22,19 @@ Inicio
    senao
       DF<- V - C
    FimSe
-   Escreval (" ------------------- ")
-   Escreval ("DIFERENCA : ", DF)
+   Escreval (" ----------------------------------------")
+   Escreval ("DIFERENCA:",DF)
    Escolha DF
    Caso 0
-      Escreval ("STATUS : EMPATE")
+      Escreval ("STATUS:EMPATE")
    Caso 1,2,3
-      Escreval ("STATUS : PARTIDA NORMAL")
+      Escreval ("STATUS:PARTIDA NORMAL")
    Caso 4,5,6,7
-      Escreval ("STATUS : GOLEADA")
+      Escreval ("STATUS:GOLEADA")
    outrocaso
-      Escreval("STATUS: ALGO INCOMUM.")
+      Escreval("STATUS:ALGO INCOMUM.")
       Escreval (" Voce digitou os dados corretamente? ")
    FimEscolha
-   Escreval (" --------------------- ")
+   Escreval (" ----------------------------------------")
 Fimalgoritmo
 

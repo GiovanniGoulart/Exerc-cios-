@@ -7,33 +7,37 @@ Algoritmo "Alunos"
 Var
    // Seção de Declarações das variáveis
 
-   S, P : Inteiro
-   PS: Real
+
+   P, S, media : Real
 
 Inicio
    // Seção de Comandos, procedimento, funções, operadores, etc...
+   Escreval("---------------------------------------")
+   Escreval("     CFP AMERICO RENE GIANNETTI        ")
+   Escreval("---------------------------------------")
    Escreva("Primeira Nota : ")
    Leia (P)
-   Escreva ("Segunda Nota : ")
+   Escreva ("Segunda Nota  : ")
    Leia (S)
-   PS <- (P+S)/2)
-   Escreval ("Media : " , PS:3:1)
-   se (PS < 50) entao
+   media <- (P+S)/2
+   Escreval ("------------------")
+   Escreval ("Media : " ,media:3:1)
+   se ( media < 5) entao
       Escreval ("Aproveitamento:F")
    senao
-      se (PS>=50) e (PS<=59) entao
+      se (media>=5) e (media< 6) entao
          Escreval ("Aproveitamento: E")
       senao
-         se (PS>=60) e (PS<=69) entao
+         se (media>=6) e (media<7) entao
             Escreval ("Aproveitamento: D")
          senao
-            se (PS>=70) e (PS<=79) entao
+            se (media>=7) e (media<8) entao
                Escreval ("Aproveitamento: C")
             senao
-               se (PS>=80) e (PS<=89) entao
+               se (media>=8) e (media<9) entao
                   Escreval ("Aproveitamento: B")
                senao
-                  se (PS>=90) e (PS<=100)entao
+                  se (media>=9) e (media<10)entao
                      Escreval ("Aproveitamento: A ")
                   FimSe
                FimSe
@@ -41,7 +45,7 @@ Inicio
          FimSe
       FimSe
    FimSe
-
+ Escreval("------------------")
 
 
 Fimalgoritmo

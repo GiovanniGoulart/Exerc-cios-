@@ -1,16 +1,16 @@
 Algoritmo "Somatorio Numerico"
 //
 //
-// Descrição   : Somar os valores e mostrar o maior valor digitado
+// Descriï¿½ï¿½o   : Somar os valores e mostrar o maior valor digitado
 // Autor(a)    : Giovanni P Goulart
 // Data atual  : 13/07/2022
 Var
-   // Seção de Declarações das variáveis
+   // Seï¿½ï¿½o de Declaraï¿½ï¿½es das variï¿½veis
 
    cont, N, S, maior : Inteiro
 
 Inicio
-   // Seção de Comandos, procedimento, funções, operadores, etc...
+   // Seï¿½ï¿½o de Comandos, procedimento, funï¿½ï¿½es, operadores, etc...
    cont<-1
    S<-0
    Enquanto (cont<=5) faca
@@ -19,7 +19,7 @@ Inicio
       Se (N > maior) entao
          maior <- N
       FimSe
-      S<-S+N
+      S <- S+N
       cont<-cont+1
    FimEnquanto
    Escreval(" A soma de todos os valores foi ",  s)
