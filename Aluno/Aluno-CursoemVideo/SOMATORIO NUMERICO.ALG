@@ -1,4 +1,5 @@
-Algoritmo "Somatorio Numerico"
+
+A,lgoritmo "Somatorio Numerico"
 //
 //
 // Descri��o   : Somar os valores e mostrar o maior valor digitado
